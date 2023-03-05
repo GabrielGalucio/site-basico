@@ -1,0 +1,321 @@
+/*Estilização da navbar*/
+.backgroundColorNav {
+    background-color: #DAAC00;
+    color: white;
+}
+
+/*Definindo uma prioridade para mudar a cor do texto pois o bootstrap não permitiu de inicio*/
+.textNav {
+    color: white !important;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar {
+    padding: 20px 200px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.divLogo {
+    padding-right: 90px;
+}
+
+.telaFull {
+    height: 100vh;
+}
+
+/* Estilização da section 1 */
+.estiloSectionAmarelo{
+    padding-top: 93px;
+    background-color: #FCC302;
+    margin: 0px;
+}
+
+.tituloSectionUm {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subtituloSectionUm {
+    color: wheat;
+    font-size: 40px;
+    margin-bottom: 34px;
+}
+
+/*Essa div será aplicadas em todas */
+.divEsquerdaSectionTodas {
+    padding: 20px 200px;
+}
+
+.btnSectionUmContato {
+    background-color: #00BEC9;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.btnSectionUmContato:hover {
+    background-color: #00BEC9;
+}
+
+.btnSectionUmContato:focus {
+    background-color: #00BEC9;
+}
+
+.btnSectionUmServico {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.divEspacoTextoImagem {
+    margin-right: 40px;
+}
+
+/*Estilização da section 2 */
+.tituloSectionDois {
+    color: #1C1C1C;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subtituloSectionDois {
+    color: #1C1C1C;
+    font-size: 40px;
+    margin-bottom: 34px;
+}
+
+.btnSectionDois {
+    background-color: #DAAC00;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btnSectionDois:hover {
+    background-color: #DAAC00;
+}
+
+.btnSectionDois:focus {
+    background-color: #DAAC00;
+}
+
+.paddingColunaUmSessaoDois { /*Separa o lador esquerdo um pouco mais do direito */
+    padding-right: 50px;
+}
+
+.capaTrasFoto {
+    background-color: #DAAC00;
+    width: 250px;
+    height: 250px;
+    margin: 0 -35px -35px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.capaFrenteFoto {
+    background-color: #DAAC00;
+    width: 550px;
+}
+
+.imgSectionDois {
+    opacity: 0.7;
+    width: 100%;
+}
+
+/*Estilização da section 3 */
+.tituloSectionTres {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subtituloSectionTres {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom:34px;
+}
+
+.imgConfSectionTres {
+    width: 350px; /*Tamanho da imagem com o atributo*/
+    padding: 5px; /*Padding que da um espaço nos 4 cantos da imagem*/
+    background-color: #ffffff; /*Fundo branco + padding deixa a imagem com borda*/
+    margin-bottom: 40px; /*margem em baixo -> margem da imagem pro texto*/
+}
+
+.titleImgSectionTres {
+    color: #ffffff; /*cor da fonte*/
+    font-size: 30px;  /*tamanho da fonte*/
+    font-weight: 600px; /*grossura da fonte*/
+    /*text-align: center;  virou o .textWebCenter*/
+}
+
+.subtitleImgSectionTres{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.textWebCenter {
+    text-align: -webkit-center;
+}
+
+/*Estilização da section 4*/
+.tituloSectionQuatro {
+    color: #1C1C1C;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subtituloSectionQuatro {
+    color: #1C1C1C;
+    font-size: 20px;
+    margin-bottom: 34px;
+}
+
+.cardSectionQuatro {
+    width: 250px;
+    margin: 10px;
+}
+
+.tituloCard{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.dataCard {
+    color: #00bec9;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.textoCard {
+    font-size: 15px;
+}
+
+.leiaMaisCard {
+    color: #00bec9;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.todosTextosCard {
+    padding: 20px;
+}
+
+.efeitoCard {
+    -webkit-box-shadow: 4px 6px 5px 0px rgba(186,186,186,1);
+    -moz-box-shadow: 4px 6px 5px 0px rgba(186,186,186,1);
+    box-shadow: 4px 6px 5px 0px rgba(186,186,186,1);
+}
+
+/*Estilização da section 5*/
+.imgSectionCinco {
+    background-image: url(../img/veterinario1.png);
+    height: 575px;
+    background: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.divAmarelaSectionCinco {
+    width: 100%;
+    height: 100%;
+    background-color: #FCC302;
+    opacity: 0.9;
+    position: relative;
+}
+
+.divItensSectionCinco {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.numeroSectionCinco {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+
+}
+
+.textoSectionCinco {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.divPaddingSectionFive {
+    padding: 0px 30px;
+}
+
+/*Estilização da section 6 */
+.estiloSectionCinza {
+    padding-top: 93px;
+    background-color: #373736;
+    margin: 0px;
+}
+
+.linkEstiloSectionSeis {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+
+.linkEstiloSectionSeis:hover {
+    color: #fcc302;
+}
+
+.tituloImagemSectionSeis {
+    color: #ffffff; /*cor da fonte*/
+    font-size: 30px;  /*tamanho da fonte*/
+    font-weight: 600px; /*grossura da fonte*/
+}
+
+.textoEmailSectionSeis {
+    color: white;
+    font-size: 25px;
+}
+
+.inputSectionSeis {
+    background-color: #fcc302;
+    border: none;
+    height: 65px;
+    width: 300px;
+}
+
+.botaoSectionSeis {
+    border: none;
+    width: 100px;
+    background-color: #00bec9;
+    color: white;
+}
+
+.socialSectionSeis {
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+}

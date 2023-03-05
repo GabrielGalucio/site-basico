@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site teste</title>
+
+  <!--Importando o bootstrap 5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Importando o arquivo com o CSS3-->
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" media="screen">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light backgroundColorNav navTam">
+    <div class="container-fluid">
+      <div class="divLogo">
+        <img src="assets/img/logo2.png" width="190px">
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link textNav" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textNav" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textNav" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textNav" href="#">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquise aqui" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisa</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Criando uma nova sessão após a navbar / cada bloco do site é uma sessão!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section class="telaFull estiloSectionAmarelo">
+    <div class="d-flex h-100 divEsquerdaSectionTodas">
+      <!--Usando o opção d-flex para dividir a div em lados (flex-box)-->
+      <div class="align-self-center divEspacoTextoImagem">
+        <p class="tituloSectionUm">PetShop <br> amigo do Cão</p>
+        <p class="subtituloSectionUm">O primeiro petshop pensado para o seu melhor amigo de forma inclusiva</l:5>
+        </p>
+        <button type="button" class="btn btn-primary btnSectionUmContato">Contato</button>
+        <button type="button" class="btn btn-outline-light btnSectionUmServico">Serviços</button>
+      </div>
+      <div class="align-self-center">
+        <img src="./assets/img/dog.png" alt="" width="400px">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Criando uma nova sessão após a sessão 1 / cada bloco do site pe uma sessãoi!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section class="telaFull">
+    <div class="d-flex col-12 h-100 divEsquerdaSectionTodas">
+      <div class="col-6 align-self-center paddingColunaUmSessaoDois">
+        <p class="tituloSectionDois">Veterinários que amam os animais</p>
+        <p class="subtituloSectionDois">Profissionais com uma ligação forte com o pet, aqui tudo envolve amor</p>
+        <button type="button" class="btn btn-primary btnSectionDois">Serviço</button>
+      </div>
+      <div class="col-6 align-self-center position-relative">
+        <div class="capaTrasFoto"></div> <!--Quadradinho atrás da foto-->
+        <div class="capaFrenteFoto">
+          <img src="./assets/img/dog2.png" class="imgSectionDois">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Criando uma nova sessão após a sessão 1 / cada bloco do site pe uma sessãoi!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section class="estiloSectionAmarelo">
+    <div class="divEsquerdaSectionTodas">
+
+      <div class="text-center" pb-5> <!--Essa classe é nativa-->
+        <p class="tituloSectionTres">Titulo principal section 3</p>
+        <p class="subtituloSectionTres">Subtitulo da section 3</p>
+      </div>
+
+      <div class="d-flex col-12">
+        <div class="col textWebCenter">
+          <div class="imgConfSectionTres">
+            <img src="./assets/img/veterinaria1.png" width="100%">
+          </div>
+          <p class="titleImgSectionTres">Veterinária</p>
+          <p class="subtitleImgSectionTres">SUbtitulo da imagem 1</p>
+        </div>
+        <div class="col textWebCenter">
+          <div class="imgConfSectionTres">
+            <img src="./assets/img/veterinaria2.png" width="100%">
+          </div>
+          <p class="titleImgSectionTres">Vacinação</p>
+          <p class="subtitleImgSectionTres">SUbtitulo da imagem 1</p>
+        </div>
+        <div class="col textWebCenter pb-5">
+          <div class="imgConfSectionTres">
+            <img src="./assets/img/veterinaria3.png" width="100%">
+          </div>
+          <p class="titleImgSectionTres">Veterinário bucal</p>
+          <p class="subtitleImgSectionTres">SUbtitulo da imagem 1</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Criando uma nova sessão após a sessão 1 / cada bloco do site pe uma sessãoi!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section>
+    <div class="divEsquerdaSectionTodas">
+
+      <div class="text-center pt-5">
+        <p class="tituloSectionQuatro">Posts Recentes</p>
+        <p class="subtituloSectionQuatro">Confira todas as novidades do nosso blog</p>
+      </div>
+
+      <div class="d-flex justify-content-center">
+
+        <div class=" card cardSectionQuatro pb-5">
+            <img src="./assets/img/vec1.png" width="250px">
+          <div class="todosTextosCard">
+            <p class="tituloCard">Um vetetirnário que ama os animais</p>
+            <p class="dataCard">25 de fevereiro de 2023</p>
+            <p class="textoCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa, ipsam ad explicabo nisi inventore?</p>
+            <p class="leiaMaisCard">Leia mais</p>
+          </div>  
+        </div>
+        <div class="efeitoCard cardSectionQuatro">
+          <img src="./assets/img/vec2.png" width="250px">
+          <div class="todosTextosCard">
+            <p class="tituloCard">Um vetetirnário que ama os animais</p>
+            <p class="dataCard">25 de fevereiro de 2023</p>
+            <p class="textoCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa, ipsam ad explicabo nisi inventore?</p>
+            <p class="leiaMaisCard">Leia mais</p>
+          </div>  
+        </div>
+        <div class=" card cardSectionQuatro">
+          <img src="./assets/img/vec3.png" width="250px">
+          <div class="todosTextosCard">
+            <p class="tituloCard">Um vetetirnário que ama os animais</p>
+            <p class="dataCard">25 de fevereiro de 2023</p>
+            <p class="textoCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa, ipsam ad explicabo nisi inventore?</p>
+            <p class="leiaMaisCard">Leia mais</p>
+          </div>  
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Criando uma nova sessão após a sessão 1 / cada bloco do site pe uma sessãoi!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section>
+    <div class="imgSectionCinco">
+      <div class="divAmarelaSectionCinco">
+        <div class="divEsquerdaSectionTodas divItensSectionCinco">
+          <div class="divPaddingSectionFive">
+            <img src="./assets/img/Icon1.png">
+            <p class="numeroSectionCinco">+2663</p>
+            <p class="textoSectionCinco">Departamentos</p>
+          </div>
+          <div class="divPaddingSectionFive">
+            <img src="./assets/img/Icon2.png">
+            <p class="numeroSectionCinco">+7626</p>
+            <p class="textoSectionCinco">Clientes Felizes</p>
+          </div>
+          <div class="divPaddingSectionFive">
+            <img src="./assets/img/Icon3.png">
+            <p class="numeroSectionCinco">+61525</p>
+            <p class="textoSectionCinco">Vacinas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Criando uma nova sessão após a sessão 1 / cada bloco do site pe uma sessãoi!-->
+  <!--Ter atenção nas classes do próprio bootstrap (d-flex/ h-100/ align-self-center)-->
+  <section class="estiloSectionCinza">
+    <div class="divEsquerdaSectionTodas">
+
+      <div class="d-flex col-12">
+        <div class="col">
+          <p class="tituloImagemSectionSeis">Sobre</p>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 1</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 2</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 3</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 4</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 5</a>
+        </div>
+        <div class="col">
+          <p class="tituloImagemSectionSeis">Serviços</p>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 1</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 2</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 3</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 4</a>
+          <a class="linkEstiloSectionSeis" href="/teste">item menu 5</a> 
+        </div>
+        <div class="col-6 text-end">
+          <p class="tituloImagemSectionSeis">Deixe o seu e-mail</p>
+          <p class="textoEmailSectionSeis">Deixe seu e-mail para nós</p>
+          <div class="d-flex justify-content-end mt-4">
+            <input class="inputSectionSeis" type="email">
+            <button class="botaoSectionSeis"><img src="./assets/img/paper-plane.png" width="25" alt="send"></button>
+          </div>
+          <div class="d-flex justify-content-end mt-4">
+            <button class="socialSectionSeis"><img src="./assets/img/facebook.png" width="25" alt="send"></button>
+            <button class="socialSectionSeis"><img src="./assets/img/instagram.png" width="25" alt="send"></button>
+            <button class="socialSectionSeis"><img src="./assets/img/twitter.png" width="25" alt="send"></button>
+            <button class="socialSectionSeis"><img src="./assets/img/whatsapp.png" width="25" alt="send"></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Importando o bundle-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
